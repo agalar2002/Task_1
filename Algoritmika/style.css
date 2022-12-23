@@ -1,0 +1,39 @@
+body{
+    background-image: url("./image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+.header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.header div{
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header ul{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header li{
+    font-size: 20px;
+    list-style-type: none;
+}
+.header a{
+    color: white;
+}
+.welcome-div{
+    margin-top: 400px;
+    text-align: center;
+}
+.welcome{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
